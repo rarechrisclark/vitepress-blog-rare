@@ -1,0 +1,17 @@
+node_modules
+dist
+.wrangler
+
+scripts
+workers
+
+src/public/*
+
+.prettierrc.json
+tsconfig.json
+wrangler.toml
+CHANGELOG.md
+README.md
+LICENSE
+package.json
+package-lock.json

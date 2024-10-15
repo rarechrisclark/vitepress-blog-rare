@@ -1,0 +1,5 @@
+name = "${CLOUDFLARE_PROJECT_NAME}"
+compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2024-09-19"
+
+pages_build_output_dir = "./docs/dist"

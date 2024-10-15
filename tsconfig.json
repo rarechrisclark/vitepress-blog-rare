@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": false, // disable for production build
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["ESNext", "DOM"],
+    "types": [],
+    "baseUrl": "./",
+    "declaration": true,
+    "removeComments": true, // smaller bundle size
+    "downlevelIteration": true, // ensures correct iteration behavior
+    "noEmitOnError": true, // ensures that no JS is generated if there are errors
+  },
+  "include": [
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.d.ts",
+    "docs/.vitepress/**/*.tsx",
+    "docs/.vitepress/**/*.vue",
+    "docs/shims-vue.d.ts"
+  ],
+  "exclude": ["dist", "node_modules"]
+}

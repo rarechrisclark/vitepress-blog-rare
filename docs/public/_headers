@@ -1,0 +1,5 @@
+/*
+  Asset-Control-Allow-Origin: *
+
+/assets/*
+  Cache-Control: public, max-age=31536000

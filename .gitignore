@@ -1,0 +1,21 @@
+# ------------- Local Development / Build ------------- #
+node_modules
+docs/dist
+docs/.vitepress/.vite
+
+# note: these files are generated dynamically by the build process
+docs/index.md
+docs/page_*.md
+
+# ------------- Environment ------------- #
+.env
+
+# ------------- Wrangler ------------- #
+.wrangler
+
+# note: wrangler.template.toml is the one we want to commit)
+wrangler.toml
+
+# ------------- User-specific files ------------- #
+.idea
+.DS_Store
