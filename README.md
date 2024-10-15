@@ -2,8 +2,6 @@
 
 A blogging platform using VitePress.
 
----
-
 ## Features
 
 - Markdown-based posts
